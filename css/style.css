@@ -22,11 +22,11 @@
 .menu_header {
     overflow: hidden;
     text-align: center;
-    padding: calc(3 * 8px);
+    padding: calc(3 * 3.5px) 0;
 }
 
 .menu_header img {
-    height: 60px;
+    height: 45px;
 }
 
 .menu_nav {
@@ -60,7 +60,7 @@
 }
 
 .menu_nav__item>a.active {
-    background-color: hsla(0, 0%, 100%, 6%);
+    background-color: hsl(0deg 0% 0% / 6%);
 }
 
 .menu_nav__item>a svg {
@@ -114,8 +114,6 @@
 .menu_nav__item a:hover .item_title {
     color: #fff;
 }
-
-
 
 .menu-shadow {
     position: fixed;
@@ -189,7 +187,7 @@
 }
 
 .menu-avatar{
-    background: linear-gradient(0deg, #009aff 0%, #1966ff 100%);
+    background: #545454;
     transition: all .2s ease-in-out;
     border-radius: 50px;
     display: inline-block;
